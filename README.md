@@ -2,12 +2,12 @@
 
 Snake game for DOS written in TASM.
 
-### Requirements
+## Requirements:
 
 - tasm.exe
 - tlink.exe
 
-### Getting started
+## Getting started:
 
 Compile:
 ```
@@ -19,11 +19,17 @@ Link:
 tlink snake.obj /t
 ```
 
-### How to use
+## How to use:
 
 You need to reach max snake length (15) to win.
 Control keys are described at the start.
 Top and bottom walls are portals, rigth wall makes you bounce and left one kills you. There are three types of artefacts: increment, decrement or death.
+
+![Screenshot](./img/increment.png ) - increment artefact
+![Screenshot](./img/decrement.png ) - decrement artefact
+![Screenshot](./img/death.png ) - death artefact
+
+You can chose self-intersection behavior, initial length and amount of death artefacts with command line arguments.
 
 ```
 snake -h
