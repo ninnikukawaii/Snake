@@ -25,9 +25,17 @@ You need to reach max snake length (15) to win.
 Control keys are described at the start.
 Top and bottom walls are portals, rigth wall makes you bounce and left one kills you. There are three types of artefacts: increment, decrement or death.
 
-![Screenshot](./img/increment.png ) - increment artefact
-![Screenshot](./img/decrement.png ) - decrement artefact
-![Screenshot](./img/death.png ) - death artefact
+Increment artefact:
+
+![Screenshot](./img/increment.png )
+
+Decrement artefact:
+
+![Screenshot](./img/decrement.png )
+
+Death artefact:
+
+![Screenshot](./img/death.png )
 
 You can chose self-intersection behavior, initial length and amount of death artefacts with command line arguments.
 
